@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: rgba(238,236,240,0.6);
+}
+h1{margin-left: 25%;}
+div{
+	
+}
+.center{
+	margin: auto;
+    width: 50%;
+    background: green;
+    border: 3px solid green;
+    padding: 10px;
+    box-shadow: 7px 7px 5px #888888;
+}
+
+table{
+	padding: 20px;
+	margin:auto;
+	width: 100%;
+}
+
+table tr{
+	margin-top: 20px;
+}
+p{
+	color:red;
+	font-size: 10pt;
+	
+}
+
+input[type="submit"]{
+	background: #08d912;
+	float:right;
+	width: 80px;
+	height: 30px;
+	padding: 10px;
+	line-height: 0;
+	border:none;
+	margin-top:20px;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+input[type="submit"]:hover{
+	color:white;
+	background: black;
+}
+
+input:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+header{
+	margin:auto;
+	width: 100%;
+	background: green;
+	height: 100px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+header h2{
+	padding-top: 20px;
+	padding-left: 40px; 
+	
+}
